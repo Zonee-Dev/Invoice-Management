@@ -31,6 +31,7 @@
     "@capacitor/cli": "^8.3.4",
     "@playwright/test": "^1.60.0",
     "@tailwindcss/postcss": "^4",
+    "@types/json-schema": "^7.0.15",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
