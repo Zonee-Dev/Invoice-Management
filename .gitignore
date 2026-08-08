@@ -10,32 +10,66 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
-/coverage
+# environment & sensitive configuration files
+.env
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
 
-# next.js
+# keys, certificates, credentials
+*.pem
+*.crt
+*.key
+*.keystore
+*.jks
+*.p12
+*.pfx
+release-key.jks
+key.properties
+local.properties
+google-services.json
+GoogleService-Info.plist
+android/app/release-key.jks
+android/app/key.properties
+android/local.properties
+
+# android & build outputs
+/build
+/android/app/build
+/android/.gradle
+/android/captures
 /.next/
 /out/
 
-# production
-/build
+# test reports & logs
+/coverage
+/playwright-report
+/test-results
+lighthouse-report.html
 
-# misc
-.DS_Store
-*.pem
+# generated service worker / PWA scripts
+public/sw.js
+public/workbox-*.js
 
-# debug
+# debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
 
-# vercel
+# vercel & typescript
 .vercel
-
-# typescript
 *.tsbuildinfo
 next-env.d.ts
+
