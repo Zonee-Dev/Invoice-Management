@@ -18,7 +18,7 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
 
   useEffect(() => {
     setIsNative(Capacitor.isNativePlatform());
-    setPrefix(process.env.NODE_ENV === "production" && !Capacitor.isNativePlatform() && window.location.pathname.includes("website-invoice-management") ? "/website-invoice-management" : "");
+    setPrefix(process.env.NODE_ENV === "production" && !Capacitor.isNativePlatform() && window.location.pathname.includes("Invoice-Management") ? "/Invoice-Management" : "");
     setMounted(true);
   }, []);
 

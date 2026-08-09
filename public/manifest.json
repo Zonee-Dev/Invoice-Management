@@ -2,7 +2,7 @@
   "name": "Nota Digital – Rumah Ayam",
   "short_name": "Nota Digital",
   "description": "Aplikasi Invoice & Nota Digital Rumah Ayam – Suplayer Ayam dan Bebek Fendi Broiler",
-  "start_url": "/website-invoice-management/",
+  "start_url": "/Invoice-Management/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",

@@ -24,7 +24,7 @@ function fmtRp(n: number) {
   return "Rp " + n.toLocaleString("id-ID");
 }
 
-const prefix = process.env.NODE_ENV === "production" ? "/website-invoice-management" : "";
+const prefix = process.env.NODE_ENV === "production" ? "/Invoice-Management" : "";
 
 const parseRp = (val: string): number => {
   const clean = val.replace(/\D/g, "");

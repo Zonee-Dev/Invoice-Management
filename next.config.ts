@@ -11,7 +11,7 @@ const withPWA = withPWAInit({
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isProd && !isCapacitor ? "/website-invoice-management" : undefined,
+  basePath: isProd && !isCapacitor ? "/Invoice-Management" : undefined,
   images: {
     unoptimized: true,
   },
